@@ -57,7 +57,7 @@ const Board = () => {
         : setGameStatus('Player O Wins !');
     } else if (game === 'TIE') {
       playerEndGame();
-      setGameStatus('Tie!');
+      setGameStatus('Draw');
     } else {
       if (xTurn) {
         setGameStatus('Player X Turn');
